@@ -1,0 +1,22 @@
+// package non_static_var;
+
+public class A {
+    static int i = 1;
+    int j = 2;
+
+    public static void main(String[] args) {
+        A a1 = new A();// To non static variable , memory will be allocated when the object is created.
+        System.out.println(a1.j);
+
+         a1.j = 5;// again we can initialized the non static variable inside method
+         System.out.println(a1.j);
+		 A obj=new A();
+		obj.m2();
+    }
+	
+	 void m2 ()
+		 {
+		 j=9;
+		 System.out.println(j);
+	 }
+}
