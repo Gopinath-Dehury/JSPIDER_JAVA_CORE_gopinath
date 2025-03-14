@@ -1,0 +1,46 @@
+class A
+{
+	String name;
+	void display(){
+	System.out.println(name);
+	}
+}
+class B extends A
+{
+	void changeName(String n){
+	 name=n;
+	 
+	}
+	
+}
+
+class C extends B
+
+{
+	String title;
+	void displayFinalname(String t){
+		title=t;
+		
+		System.out.println(name+" "+title);
+}
+
+}
+class Test
+{
+	public static void main(String[] args) 
+	{
+		A a1= new B();//auto upcasting
+		// creating subclass instance and assign it to suber class type reference is called as upcasting.
+		A a2=new C();//auto upcasting
+			System.out.println("upcasting done");
+		B b=(C)a2;//EXplicit downcasting to sub class type
+		b.changeName("Gopinath");
+		a2.display();
+		//b.displayFinalname("Dehury");
+		System.out.println("if Gopinath Dehury not shown b referenceof 'B' can't access to displayFinalname() method");
+		C c=(C)b;//explicitly downcasting to sub class type
+		c.displayFinalname("Dehury");
+		System.out.println("if Gopinath Dehury  shown c reference of 'C'can access to displayFinalname() method");
+		
+	}
+}
