@@ -1,20 +1,50 @@
-public class SecondSmallestinArray {
-    public static void main(String[] args) {
-        int[] a = { 3, 8, 4, 3, 5, 7, 9, 12 };
-        int s1=a[0];
-        int s2=a[0];
+// Java program to find smallest and second smallest
+// elements
 
-        for (int i = 1; i < a.length; i++) {
-            if (s1 == a[i]) continue;
-            if(a[i]<s1) {
-                s2 = s1;
-                s1 = a[i];
-            }else if(s2>a[i] && s1==s2){
-                s2=a[i];
-            }
+import java.io.*;
+
+class SecondSmallest {
+    /* Function to print first smallest and second smallest
+      elements */
+    static void print2Smallest(int arr[])
+    {
+        int first, second, arr_size = arr.length;
+
+        /* There should be atleast two elements */
+        if (arr_size < 2) {
+            System.out.println(" Invalid Input ");
+            return;
         }
 
-        System.out.println(s2);
+        first = second = Integer.MAX_VALUE;
+        for (int i = 0; i < arr_size; i++) {
+            /* If current element is smaller than first
+              then update both first and second */
+            if (arr[i] < first) {
+                second = first;
+                first = arr[i];
+            }
 
+            /* If arr[i] is in between first and second
+               then update second  */
+            else if (arr[i] < second && arr[i] != first)
+                second = arr[i];
+        }
+        if (second == Integer.MAX_VALUE)
+            System.out.println("There is no second"
+                               + "smallest element");
+        else
+            System.out.println("The smallest element is "
+                               + first
+                               + " and second Smallest"
+                               + " element is " + second);
+    }
+
+    /* Driver program to test above functions */
+    public static void main(String[] args)
+    {
+        int arr[] = { 111, 13, 25, 9, 34, 1 };
+        print2Smallest(arr);
     }
 }
+/*This code is contributed by Devesh Agrawal*/
