@@ -1,3 +1,5 @@
+package StringProgramming;
+
 import java.util.Scanner;
 
 public class NumberToWord {
@@ -5,7 +7,7 @@ public class NumberToWord {
         System.out.println("Enter the number you want to  convert into word FORM : ");
         int n = new Scanner(System.in).nextInt();
         pw(n / 10000000, " Crore ");
-        pw((n / 100000)%100, " Lakhs ");
+        pw((n / 100000) % 100, " Lakhs ");
         pw((n / 1000) % 100, " Thousands ");
         pw((n / 100) % 10, " Hundred ");
         pw(n % 100, "");
