@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class NumberToWord {
     public static void main(String[] args) {
         System.out.println("Enter the number you want to  convert into word FORM : ");
+
         int n = new Scanner(System.in).nextInt();
+
         pw(n / 10000000, " Crore ");
         pw((n / 100000) % 100, " Lakhs ");
         pw((n / 1000) % 100, " Thousands ");
