@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeCheck {
-
+class primeAlternate {
     static boolean isPrime(int n) {
         if (n < 2)
             return false;
@@ -11,26 +10,28 @@ public class PrimeCheck {
                 return false;
             }
         }
-
         return true;
-
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter start range : ");
+        System.out.println("Enter the start range : ");
         int start = sc.nextInt();
-        System.out.println("enter end range : ");
+        System.out.println("Enter the end range : ");
         int end = sc.nextInt();
         sc.close();
         int count = 0;
-        for (int i = start; i <= end; i++) {
+        // for (int i = start; i <= end; i++) {
+        for (int i = end; i >= start; i--) {
             if (isPrime(i)) {
-                // count++;
+                count++;
                 // if (count % 2 != 0)
-                System.out.println(i);
+                if (count == 3) {
+                    System.out.println(i);
+                    break;
+                }
+
             }
         }
     }
-
 }

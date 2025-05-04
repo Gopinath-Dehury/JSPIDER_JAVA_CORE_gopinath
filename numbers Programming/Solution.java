@@ -6,7 +6,7 @@ class Test {
 public class Solution {
 
     public static void main(String args[]) {
-        Test t=
+        Test t=new Test();
         System.out.println(t.i);
     }
 

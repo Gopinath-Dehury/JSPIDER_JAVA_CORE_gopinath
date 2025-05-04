@@ -1,0 +1,190 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AddonlynumfromString",
+            "request": "launch",
+            "mainClass": "AddonlynumfromString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "Anagram",
+            "request": "launch",
+            "mainClass": "Anagram",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "Anagrap1",
+            "request": "launch",
+            "mainClass": "Anagrap1",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "Ascivalue",
+            "request": "launch",
+            "mainClass": "Ascivalue",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "Chartoint",
+            "request": "launch",
+            "mainClass": "Chartoint",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "Count",
+            "request": "launch",
+            "mainClass": "Count",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "FindsumofdigitTakeCONNumAsONENUM",
+            "request": "launch",
+            "mainClass": "FindsumofdigitTakeCONNumAsONENUM",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "FindsumofdigitTakeCONNumAsONENUMmethod",
+            "request": "launch",
+            "mainClass": "FindsumofdigitTakeCONNumAsONENUMmethod",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "NumberToWord",
+            "request": "launch",
+            "mainClass": "NumberToWord",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "PallindromeString",
+            "request": "launch",
+            "mainClass": "PallindromeString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "PrintconsecutivePalStringinString",
+            "request": "launch",
+            "mainClass": "PrintconsecutivePalStringinString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "REGex",
+            "request": "launch",
+            "mainClass": "REGex",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "REverseaString",
+            "request": "launch",
+            "mainClass": "REverseaString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "RegexExample",
+            "request": "launch",
+            "mainClass": "RegexExample",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "RevSentense",
+            "request": "launch",
+            "mainClass": "RevSentense",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAnyString",
+            "request": "launch",
+            "mainClass": "ReverseAnyString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "Revword_Sentence",
+            "request": "launch",
+            "mainClass": "Revword_Sentence",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "RiverseString",
+            "request": "launch",
+            "mainClass": "RiverseString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "SeparateINTCHARinto2string",
+            "request": "launch",
+            "mainClass": "SeparateINTCHARinto2string",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "SumofDigitsPresentinString",
+            "request": "launch",
+            "mainClass": "SumofDigitsPresentinString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "SumofNumberPresentintALPHAnumericString",
+            "request": "launch",
+            "mainClass": "SumofNumberPresentintALPHAnumericString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "SumofdigitpresentinString",
+            "request": "launch",
+            "mainClass": "SumofdigitpresentinString",
+            "projectName": "StringProgramming_d5284683"
+        },
+        {
+            "type": "java",
+            "name": "count1",
+            "request": "launch",
+            "mainClass": "count1",
+            "projectName": "StringProgramming_d5284683"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+🟢 Level 1: Basic Understanding
+Factorial of a Number
+Input: 5 → Output: 120
+
+Sum of First N Natural Numbers
+Input: 4 → Output: 10
+
+Print Numbers from N to 1
+Input: 5 → Output: 5 4 3 2 1
+
+Print Numbers from 1 to N
+Input: 3 → Output: 1 2 3
+
+Calculate Power (x^n)
+Input: x=2, n=3 → Output: 8
+
+🟡 Level 2: Intermediate Thinking
+Check if a String is a Palindrome
+Input: "madam" → Output: true
+
+Find the nth Fibonacci Number
+Input: 5 → Output: 5
+(Fibonacci: 0, 1, 1, 2, 3, 5…)
+
+Count Digits in a Number
+Input: 12345 → Output: 5
+
+Reverse a String using Recursion
+Input: "hello" → Output: "olleh"
+
+Sum of Digits of a Number
+Input: 123 → Output: 6
+
+🔵 Level 3: Deeper Logic Building
+Find GCD of Two Numbers (Euclidean Algorithm)
+Input: gcd(48, 18) → Output: 6
+
+Check if Array is Sorted (Strictly Increasing)
+Input: [1, 2, 3, 4] → Output: true
+
+Linear Search in an Array using Recursion
+Input: arr = [3, 5, 7], key = 5 → Output: true
+
+Print All Subsets of a String
+Input: "ab" → Output: ["", "a", "b", "ab"]
+
+Find First and Last Occurrence of an Element in an Array
+
