@@ -18,6 +18,7 @@ class Romaniser {
         m.put(4, "IV");
         m.put(1, "I");
         StringBuilder res = new StringBuilder("");
+
         for (int key : m.keySet()) {
             while (n >= key) {
                 res.append(m.get(key));
@@ -28,7 +29,7 @@ class Romaniser {
     }
 
     public static void main(String[] args) {
-        int n=1040;
+        int n=2507;
         System.out.println(romaniser(n));
     }
 }
