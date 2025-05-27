@@ -1,8 +1,4 @@
 alternate prime number in recurssion
-
-
-
-
 auto
 bintodec
 holodiamond
