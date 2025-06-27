@@ -1,0 +1,18 @@
+ 4. What is CascadeType.ALL?
+It means any operation (persist, merge, remove, refresh, detach) applied to the parent entity will also be applied to the associated child entity.
+
+✅ Example:
+java
+Copy
+Edit
+@OneToOne(cascade = CascadeType.ALL)
+private Engine engine;
+If you do:
+
+java
+Copy
+Edit
+em.persist(car);
+➡️ Hibernate will also persist(car.getEngine()) automatically.
+Useful when saving/removing associated objects.
+
