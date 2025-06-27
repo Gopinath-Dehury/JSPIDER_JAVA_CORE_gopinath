@@ -64,6 +64,6 @@ public class DoubleLinkedList {
         
         curr.next.prev=newNode;
         curr.next=newNode;
-        index++;
+        index++; 
     }
 }

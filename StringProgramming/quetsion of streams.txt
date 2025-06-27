@@ -1,0 +1,61 @@
+Here are **35 Java Stream problems** ordered from **easy to hard**, designed to help you understand and practice different stream methods step by step:
+
+---
+
+### ✅ **Beginner (Easy - Level 1 to 10)**
+
+Focus: `map()`, `filter()`, `collect()`, `forEach()`, `count()`
+
+1. **Print all even numbers from a list**
+2. **Convert a list of strings to uppercase**
+3. **Filter names starting with 'A'**
+4. **Count the number of strings with length > 4**
+5. **Find square of each number in a list**
+6. **Filter out null values from a list**
+7. **Sort a list of numbers**
+8. **Find the maximum number in a list**
+9. **Find the minimum string (lexicographically)**
+10. **Check if any element starts with "Test"**
+
+---
+
+### 🟡 **Intermediate (Medium - Level 11 to 25)**
+
+Focus: `sorted()`, `limit()`, `skip()`, `distinct()`, `reduce()`, `anyMatch()`, `allMatch()`
+
+11. **Get first 3 unique elements from a list**
+12. **Find the sum of squares of all odd numbers**
+13. **Concatenate all strings in a list using `reduce()`**
+14. **Check if all numbers are positive**
+15. **Find duplicate elements in a list**
+16. **Count frequency of each character in a string**
+17. **Remove duplicate strings ignoring case**
+18. **Get second highest number in a list**
+19. **Reverse each string in a list**
+20. **Sort a list of strings by their lengths**
+21. **Get common elements between two lists**
+22. **Find average of list of numbers**
+23. **Create a Map with string and its length**
+24. **Partition a list of integers into even and odd numbers**
+25. **Group words by their first character**
+
+---
+
+### 🔴 **Advanced (Hard - Level 26 to 35)**
+
+Focus: `Collectors.groupingBy()`, `partitioningBy()`, custom `Comparator`, `flatMap()`, nested streams
+
+26. **Flatten a list of lists**
+27. **Group a list of strings by length**
+28. **Count frequency of each word in a paragraph**
+29. **Find top 3 highest occurring elements**
+30. **Sort employees by salary (List<Employee>)**
+31. **Group employees by department**
+32. **Find average salary per department**
+33. **Get all department names with employees above age 30**
+34. **Find the employee with the second highest salary**
+35. **Flatten nested JSON-like structure into a flat list of values**
+
+---
+
+If you want, I can give the **solution** to each one step-by-step with **comments and explanation**. Let me know how you'd like to proceed — by topic (like map/filter/reduce), by level (easy to hard), or full batch.
